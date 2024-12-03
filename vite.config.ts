@@ -23,6 +23,10 @@ export default defineConfig({
       external: [
         ...Object.keys(peerDependencies),
         ...Object.keys(dependencies),
+        "**/*.stories.js",
+        "**/*.stories.jsx",
+        "**/*.stories.ts",
+        "**/*.stories.tsx",
       ],
       output: { preserveModules: true, exports: "named" },
     },
