@@ -13,10 +13,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: cn(
-          "i_bg-purple-800 i_text-primary-foreground",
-          "hover:i_bg-primary/90"
-        ),
+        default: cn("i_bg-primary i_text-primary-foreground"),
       },
       size: {
         default: "i_h-10 i_px-4 i_py-2",
