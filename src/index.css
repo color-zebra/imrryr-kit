@@ -11,7 +11,7 @@
     --primary: hsl(222.2 47.4% 11.2%);
     --primary-foreground: hsl(210 40% 98%);
     --ring: hsl(215 20.2% 65.1%);
-    --radius: 0.5rem;
+    --radius: 15px;
   }
 
   .dark {
