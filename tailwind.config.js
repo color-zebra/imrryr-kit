@@ -3,6 +3,7 @@ module.exports = {
   darkMode: ["class"],
   content: ["./src/**/*.{ts,tsx}"],
   safelist: ["dark"],
+  prefix: "i_",
   theme: {
     extend: {
       colors: {

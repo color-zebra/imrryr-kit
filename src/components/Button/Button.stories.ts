@@ -21,18 +21,3 @@ export const Primary: Story = {
     children: "Кнопка",
   },
 };
-
-export const Secondary: Story = {
-  args: {
-    variant: "secondary",
-    children: "Кнопка",
-  },
-};
-
-export const Large: Story = {
-  args: {
-    size: "lg",
-    variant: "default",
-    children: "Кнопка",
-  },
-};
