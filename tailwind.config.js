@@ -7,11 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        background: "var(--background)",
+        container: "var(--container)",
         border: "var(--border)",
         input: "var(--input)",
         ring: "var(--ring)",
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        foreground: {
+          DEFAULT: "var(--primary-foreground)",
+        },
         primary: {
           DEFAULT: "var(--primary)",
           foreground: "var(--primary-foreground)",

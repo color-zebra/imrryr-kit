@@ -4,12 +4,13 @@
 
 @layer base {
   :root {
-    --background: hsl(0 0% 100%);
-    --foreground: hsl(222.2 47.4% 11.2%);
+    --background: rgb(12, 13, 35);
+    --container: rgba(0, 0, 0, 0.5);
+    --primary-foreground: rgb(255, 255, 255);
+
     --border: hsl(214.3 31.8% 91.4%);
     --input: hsl(214.3 31.8% 91.4%);
     --primary: hsl(222.2 47.4% 11.2%);
-    --primary-foreground: hsl(210 40% 98%);
     --ring: hsl(215 20.2% 65.1%);
     --radius: 15px;
   }
