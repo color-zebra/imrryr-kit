@@ -12,18 +12,18 @@ module.exports = {
         border: "var(--border)",
         input: "var(--input)",
         ring: "var(--ring)",
+        blue: {
+          DEFAULT: "var(--blue)",
+          hover: "var(--blue-hover)",
+        },
         foreground: {
           DEFAULT: "var(--primary-foreground)",
-        },
-        primary: {
-          DEFAULT: "var(--primary)",
-          foreground: "var(--primary-foreground)",
         },
       },
       borderRadius: {
         lg: `var(--radius)`,
         md: `calc(var(--radius) - 5px)`,
-        sm: "calc(var(--radius) - 15px)",
+        sm: "calc(var(--radius) - 10px)",
       },
     },
   },

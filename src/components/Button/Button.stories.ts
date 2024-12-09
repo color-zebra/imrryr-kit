@@ -8,7 +8,20 @@ const meta = {
   parameters: {
     layout: "centered",
   },
-  tags: ["autodocs"],
+  argTypes: {
+    variant: {
+      control: {
+        type: "inline-radio",
+      },
+      options: ["default", "ghost", "glow"],
+    },
+    size: {
+      control: {
+        type: "inline-radio",
+      },
+      options: ["sm", "md", "lg", "xl", "icon"],
+    },
+  },
   args: {},
 } satisfies Meta<typeof Button>;
 
@@ -19,5 +32,6 @@ export const Primary: Story = {
   args: {
     variant: "default",
     children: "Кнопка",
+    size: "sm",
   },
 };

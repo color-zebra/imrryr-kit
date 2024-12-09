@@ -8,6 +8,11 @@
     --container: rgba(0, 0, 0, 0.5);
     --primary-foreground: rgb(255, 255, 255);
 
+    --blue: #007aff;
+    --blue-hover: #00438c;
+    --disable: #494949;
+
+    /* NOT USED  */
     --border: hsl(214.3 31.8% 91.4%);
     --input: hsl(214.3 31.8% 91.4%);
     --primary: hsl(222.2 47.4% 11.2%);
@@ -31,6 +36,6 @@
     @apply i_border-border;
   }
   body {
-    @apply i_font-sans i_antialiased i_bg-background i_text-foreground;
+    @apply i_font-sans i_antialiased i_bg-background;
   }
 }
